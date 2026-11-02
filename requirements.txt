@@ -1,0 +1,3 @@
+# Versión vieja a propósito: CVE-2018-18074 (filtra el header Authorization
+# al seguir una redirección de HTTPS a HTTP). Corregida en 2.20.0.
+requests==2.19.0
