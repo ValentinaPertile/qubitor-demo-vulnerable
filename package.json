@@ -1,0 +1,9 @@
+{
+  "name": "qubitor-demo-vulnerable",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Repositorio inseguro a propósito para la demo de Qubitor",
+  "dependencies": {
+    "lodash": "4.17.4"
+  }
+}
