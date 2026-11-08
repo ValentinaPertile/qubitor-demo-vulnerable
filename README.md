@@ -14,6 +14,7 @@ Todas las credenciales que aparezcan acá son **inventadas** y visiblemente fals
 | `lodash` 4.17.4 (CVE-2018-3721, CVE-2019-10744) | SCA | D | `package.json` | ✅ |
 | Firma con ECDSA (riesgo cuántico) | Cripto post-cuántica | D | `app/signing.js` | ✅ |
 | RSA, ECDH y AES-128 (riesgo cuántico) | Cripto post-cuántica | D | `app/keys.py` | ✅ |
+| Certificado con RSA de 1024 bits y firma SHA-1 | Certificados | D | `certs/server.pem` | ✅ |
 | Consulta SQL armada con f-string | SAST | C | `app/db.py` | pendiente |
 | `eval()` sobre input del usuario | SAST | C | `app/utils.py` | pendiente |
 | AWS key y token de GitHub falsos | Secretos | C | `config/settings.py`, `.env.example` | pendiente |
